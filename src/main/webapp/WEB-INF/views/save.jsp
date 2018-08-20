@@ -15,7 +15,7 @@
 <h1>Save Condiment</h1>
 <form >
 <c:forEach items='${save}' var="s">
-    ${s}
+    ${s}<br>
 </c:forEach>
 </form>
 </body>
